@@ -1,0 +1,5 @@
+ignore_layers:
+  - "tKeepout"
+
+ignore_code:
+  - "wire stub"
