@@ -2,7 +2,7 @@ name: "drcjudge"
 description: "Assess DRC JSON result file"
 runs:
   using: docker
-  image: Dockerfile
+  image: "docker://faryon93/drcjudge:latest"
   args:
     - ${{ inputs.result_file }}
 
